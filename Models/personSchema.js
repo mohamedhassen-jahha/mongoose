@@ -3,7 +3,7 @@ const { stringify } = require("qs");
 
 const personSchema = {
   name: {
-    type: string,
+    type: String,
     required: true,
   },
   age: {
